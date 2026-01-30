@@ -34,7 +34,7 @@ const authenticatedUser = (username,password)=>{ //returns boolean
 
 //only registered users can login
 regd_users.post("/login", (req,res) => {
-  //Write your code here
+  //TASK 7
   const username = req.body.username;
   const password = req.body.password;
   // Check if username or password is missing
